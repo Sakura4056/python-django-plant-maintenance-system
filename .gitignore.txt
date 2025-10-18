@@ -1,0 +1,25 @@
+# 在项目目录中创建 .gitignore 文件（通过命令行创建，或手动新建文本文件改名）
+# 以下是 Django 项目常用的 .gitignore 内容，可直接复制进去
+echo "# 虚拟环境
+venv/
+env/
+*.pyenv
+
+# 编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 敏感配置
+.env
+.env.local
+db.sqlite3
+db.sqlite3-journal
+
+# 日志
+logs/
+*.log
+
+# 操作系统文件
+.DS_Store
+Thumbs.db" > .gitignore
